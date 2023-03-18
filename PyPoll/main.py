@@ -1,5 +1,5 @@
 # PyPoll
-<<<<<<< HEAD
+
 import csv
 import os
 
@@ -79,7 +79,7 @@ print(f"Winner: {winner}"+ "\n" + "-------------------------")
 
 # write the output to txt file
 output_path = "analysis/PyPoll_result.txt"
-=======
+
 import pandas as pd
 
 # Read in csv file
@@ -129,13 +129,11 @@ print("-------------------------")
 
 # write the result into a txt file
 output_path = "PyPoll/analysis/PyPoll_result.txt"
->>>>>>> e57469f2283a6e366fe05c3a8d53956604373400
 with open(output_path, "w") as file:
     file.write("Election Results" + '\n')
     file.write("-------------------------" + '\n')
     file.write(f"Total Votes: {total_vote}" + '\n')
     file.write("-------------------------" + '\n')
-<<<<<<< HEAD
     file.write(f"{uni_can[0]}: {perc[0]}% ({can_votes[0]})" + '\n')
     file.write(f"{uni_can[1]}: {perc[1]}% ({can_votes[1]})" + '\n')
     file.write(f"{uni_can[2]}: {perc[2]}% ({can_votes[2]})" + '\n')
@@ -205,11 +203,9 @@ with open(output_path, "w") as file:
 #     file.write("-------------------------" + '\n')
 #     file.write(f"Winner: {winner}" + '\n')
 #     file.write("-------------------------")
-=======
-    file.write(f"{candicate[0]}: {perc[0]}% ({votes_by_cand[0]})" + '\n')
-    file.write(f"{candicate[1]}: {perc[1]}% ({votes_by_cand[1]})" + '\n')
-    file.write(f"{candicate[2]}: {perc[2]}% ({votes_by_cand[2]})" + '\n')
-    file.write("-------------------------" + '\n')
-    file.write(f"Winner: {winner}" + '\n')
-    file.write("-------------------------")
->>>>>>> e57469f2283a6e366fe05c3a8d53956604373400
+#     file.write(f"{candicate[0]}: {perc[0]}% ({votes_by_cand[0]})" + '\n')
+#     file.write(f"{candicate[1]}: {perc[1]}% ({votes_by_cand[1]})" + '\n')
+#     file.write(f"{candicate[2]}: {perc[2]}% ({votes_by_cand[2]})" + '\n')
+#     file.write("-------------------------" + '\n')
+#     file.write(f"Winner: {winner}" + '\n')
+#     file.write("-------------------------")
