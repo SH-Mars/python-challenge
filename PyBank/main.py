@@ -3,7 +3,7 @@
 import csv
 
 # specify the file path
-file_path = "C:\\Users\\s4013\\OneDrive\\Documents\\UCB Data Bootcamp\\Python\\Week 3\\Challenge 3\\python-challenge\\PyBank\\Resources\\budget_data.csv"
+file_path = "Resources/budget_data.csv"
 
 # following the format according to instruction
 title = "Financial Analysis"
